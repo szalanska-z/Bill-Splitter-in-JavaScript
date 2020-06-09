@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: rgb(112, 185, 148);
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  width: 600px;
+  border: 10px dotted black;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.top p {
+  margin-top: 10px;
+}
+
+.bottom {
+  padding: 40px 20px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+input,
+select {
+  font-size: 18px;
+  margin-bottom: 25px;
+  padding: 10px 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+input:focus {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+select:focus {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.count {
+  display: block;
+  margin: 20px auto;
+  padding: 20px 10px;
+  width: 60%;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.count:hover {
+  background-color: black;
+  color: white;
+}
+
+.cost-info {
+  display: none;
+  margin-top: 30px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.cost {
+  font-weight: bold;
+}
+
+.error {
+  font-size: 26px;
+  color: rgb(185, 49, 49);
+  text-align: center;
+}
+
+.fa-smile-beam {
+  font-size: 24px;
+}
